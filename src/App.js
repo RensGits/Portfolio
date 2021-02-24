@@ -20,7 +20,7 @@ function App(){
     
     <Router>
       <div class = 'above'>
-        first commit
+        first commit 1
       </div>
       <Nav />
       <Switch>
