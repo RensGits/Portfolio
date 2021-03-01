@@ -2,15 +2,19 @@ import React from 'react';
 import '/Projects/portfolio/src/App.css';
 
 
-function Contact(){
+function About(){
 
   // logica
 
   return(
-    <div class = 'page'>
-        <h1>Contact page</h1>
+    
+      
+    <div>
+      <div className = 'colorOne'></div>
+      
     </div>
+   
   );
 }
 
-export default Contact;
+export default About;
