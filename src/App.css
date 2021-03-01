@@ -1,56 +1,110 @@
-body{
-  background-color: white;
-  height: 1020px;
-  width: 14080;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+
+    body {
+      width: 100vw;
+      height: 200vh;
+      overflow-x: hidden;
+      
+      background-color:#f2f2f2;
+      margin: 0;
+    }
+
+  .navigation{
+    background-color:#F2F2F2;
+    display: flex;
+    height: 10vh;
+    width: 100vw;  
+    justify-content:center;
+    align-items: center;
+    margin-left: 2.2rem;
+
+  }
+
+  .navitems{
+    color: black;
+    text-decoration: none;
+    margin-right: 10rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 0.8rem;
+    
+  }
+
+  .aroundAbout{
+    display : flex;
+    width: 100vw;
+    height: 94vh;
+    background-color:#F2F2F2;
+    justify-content: center;
+    align-content: center;
+    
+  }
   
+    
+    
+    
+
+
+  .faceBox{
+    
+    height: 100%;
+    flex: 4;
+    background-color:  #006DDF;
+
+  }
+ 
+    
+.aboutBox{
+    margin-top: 2%;
+    
+    width: 80vw;
+    height: 70vh;
+    background-color: #006DDF;
+    display: flex;
 }
+ 
 
-.page {
-  background-color: white;
-  flex: 100;
-}
+  .hi{
+    margin: 2rem;
+    text-align: right;
+    font-size: 4rem;
+    color: bisque;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+  }
 
+  .insert {
+    
+    font-size: 2rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: black;
+  }
 
-nav{
-  display:flex;
-  justify-content: space-around;
-  align-items: center;
-  justify-content: center;
-  background-color: tomato;
-  height: 100px;
-  flex:5;
-  
-}
-
-.navitems{
-  display: flex;
-  
-  width: 50%;
-  justify-content: space-evenly;
-  align-items: center;
-  list-style: none;
-  color:white;
-  word-spacing: 50%;
-
-}
-
-.above {
-  height: 100px;
-  flex: 5;
-  background-color: white;
-  justify-content: above;
-  
-}
-
-.beneath {
-  height: 100px;
-  flex: 5;
-  background-color: white;
-  
-}
+  .textBoxMain{
+    flex:6;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+    height: 100%;
+    background-color:  #006DDF;}
 
 
 
+  .aboutTextSecond{
+    display:flex;
+    align-self: flex-end;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 0.8rem;
+    color: white;
+   
+    margin-left: 30%;
+    text-align: justify;
+    line-height: 200%;
+
+  }
+
+  p{
+    margin: 0;
+  }
