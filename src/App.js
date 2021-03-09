@@ -1,6 +1,6 @@
 import React from 'react'; 
 import '/Projects/portfolio/src/App.css';
-import About from './components/About/About';
+import Work from './components/Work/Work';
 import Contact from './components/Contact/Contact';
 import Nav from './components/Navigation/Nav';
 import Home from './components/Home/Home';
@@ -20,7 +20,7 @@ function App(){
       <Nav />
           <Switch>
           <Route path = '/' exact component = {Home} />
-          <Route path = '/About' component = {About} />
+          <Route path = '/Work' component = {Work} />
           <Route path = '/Contact' component = {Contact} />
           </Switch>
       </Router>
