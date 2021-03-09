@@ -12,13 +12,13 @@ function Nav(){
     <nav className = 'navigation'>
         
           
-            <Link to = '/' class = 'navitems'>
+            <Link to = '/' class = 'navitems one'>
               <div >ABOUT</div>
             </Link>
-            <Link to = '/About' class = 'navitems'>
+            <Link to = '/Work' class = 'navitems two'>
               <div >WORK</div>
             </Link>
-            <Link to = '/Contact' class = 'navitems'>
+            <Link to = '/Contact' class = 'navitems three'>
               <div >CONTACT</div>
             </Link>
           
